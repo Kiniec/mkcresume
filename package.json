@@ -12,6 +12,7 @@
     "eslint-plugin-react": "^7.37.5",
     "lucide": "^0.525.0",
     "lucide-react": "^0.525.0",
+    "mkcresume": "link:",
     "next": "15.4.1",
     "react": "19.1.0",
     "react-animate": "^3.0.0",
