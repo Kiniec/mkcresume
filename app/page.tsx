@@ -1,18 +1,18 @@
 
 import React from "react";
 
-import backgroundImage from "next/image"
+//import backgroundImage from "next/image"
 
 
 
 
-const navigation = [
-  { name: "About", href: "/about" },
-  { name: "Profile", href: "/profile" },
-  { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "/contact" },
+//const navigation = [
+  //{ name: "About", href: "/about" },
+ // { name: "Profile", href: "/profile" },
+ // { name: "Projects", href: "/projects" },
+//  { name: "Contact", href: "/contact" },
   // { name: "Blog", href: "/blog" },
-];
+//];
 
 
  
