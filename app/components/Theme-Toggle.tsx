@@ -5,10 +5,10 @@ const ThemeToggle = () => {
   return (
     
     <div className=''>
-      <div className="  dark:text-zinc-400 dark:hover:text-zinc-100 "> 
+      <div className="  "> 
          <label className="swap swap-rotate">
               {/* this hidden checkbox controls the state */}
-              <input type="checkbox" className="theme-controller" value="" />
+              <input type="checkbox" className="theme-controller" value="coffee" />
 
                {/* sun icon */}
              <svg

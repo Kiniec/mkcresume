@@ -1,0 +1,44 @@
+#This is a workflow to update the outfolder  in S3 on a push to the repo. 
+
+name: Update Out Folder
+
+on:
+  push: 
+    branches:
+      - main
+    paths: 
+      - "/out"
+      
+      
+
+
+    
+permissions:
+      id-token: write
+      contents: read
+
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Configure AWS credentials using OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          audience: sts.amazonaws.com
+          role-to-assume: arn:aws:iam::385551203594:role/github-oidc-role
+          aws-region: us-east-1
+
+      - name: Upload files to S3
+        run: |
+          aws s3 sync ./out s3://mkcarlisle.com/ --delete
+          
+          
+          
+      - name: Invalidate CloudFront cache 
+        run:
+            aws cloudfront create-invalidation --distribution-id E3O256W2OER804 --paths "/index.html" "/about.html" "/profile.html" "/projects.html" "/contact.html" 

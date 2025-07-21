@@ -1,16 +1,27 @@
-import Image from "next/image";
+"use client";
+import   Nav  from "../components/Nav";
 
-export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        
-       
+import Activeslider from "../components/Activeslider";
 
-       
-         
-      </main>
+
+export default function Profile(){
+    return(
+   <div className= "   ">
+			 
+                           
+      <Nav/> 
+        <div className=" items-center justify-center h-screen py-60  " >     {/*py-60 used to create padding around swiper */}
+          <Activeslider/>
+        </div>        
+     
+     
+     
+          
+				
       
-    </div>
-  );
+		</div>   //end main div
+      
+		
+	);
 }
+
