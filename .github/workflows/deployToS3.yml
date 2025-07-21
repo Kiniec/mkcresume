@@ -41,4 +41,4 @@ jobs:
           
       - name: Invalidate CloudFront cache 
         run:
-            aws cloudfront create-invalidation --distribution-id E3O256W2OER804 --paths "/index.html" "/about.html" "/profile.html" "/projects.html" "/contact.html" 
+            aws cloudfront create-invalidation --distribution-id E3O256W2OER804 --paths "/out/index.html" "/out/about.html" "/out/profile.html" "/out/projects.html" "/out/contact.html" 
