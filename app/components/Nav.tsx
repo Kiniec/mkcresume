@@ -45,25 +45,25 @@ import ThemeToggle from "./Theme-Toggle";
 					</Link>
 						<Link
 							href="/about"
-							className="duration-200   "
+							className="duration-200   " title="About"
 						>
 							About
 						</Link>
 						<Link
 							href="/profile"
-							className="duration-200  "
+							className="duration-200  "   title="Profile" 
 						>
 							Profile 
 						</Link>
 						<Link
 							href="/projects"
-							className="duration-200   "
+							className="duration-200   " title="Projects"
 						>
 							Projects
 						</Link>
 						<Link
 							href="/contact"
-							className="duration-200 "
+							className="duration-200 " title="Contact"
 						>
 							Contact
 						</Link>
