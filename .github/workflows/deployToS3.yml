@@ -43,7 +43,7 @@ jobs:
           aws s3 cp out/contact.html s3://mkcresume/contact.html 
           aws s3 cp out/index.html s3://mkcresume/index.html
           aws s3 cp out/profile.html s3://mkcresume/profile.html   
-          aws s3 cp out/project.html s3://mkcresume/projects 
+          aws s3 cp out/projects.html s3://mkcresume/projects.html 
            aws s3 cp out/icon.ico s3://mkcresume/icon.ico 
               
 
