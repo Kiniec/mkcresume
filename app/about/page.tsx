@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 
 
-export default function about() {
+export default function Page() {
   return (
     
         
