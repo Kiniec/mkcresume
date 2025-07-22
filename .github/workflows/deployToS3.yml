@@ -34,11 +34,22 @@ jobs:
           aws-region: us-east-1
 
       - name: Upload files to S3
-        run: |
-          aws s3 sync out/ s3://mkcresume/out/ --delete
-          
+        run: | # aws s3 sync out/ s3://mkcresume/out/ --delete
+          aws s3 sync out/_next s3://mkcresume/_next --delete
+          aws s3 sync out/images s3://mkcresume/images --delete
+          aws s3 sync out/about.html s3://mkcresume/about.html --delete
+          aws s3 sync out/contact.html s3://mkcresume/contact.html --delete
+          aws s3 sync out/index.html s3://mkcresume/index.html --delete
+          aws s3 sync out/profile.html s3://mkcresume/profile.html --delete    
+          aws s3 sync out/project.html s3://mkcresume/projects --delete   
+           aws s3 sync out/icon.ico s3://mkcresume/icon.ico --delete 
+              
+
+             
           
           
       - name: Invalidate CloudFront cache 
         run:
-            aws cloudfront create-invalidation --distribution-id E3O256W2OER804 --paths "/out/*" 
+            aws cloudfront create-invalidation --distribution-id E3O256W2OER804 --paths "/*" 
+
+
