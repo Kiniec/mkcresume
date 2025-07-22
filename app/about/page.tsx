@@ -3,11 +3,13 @@
 import { Card } from "../components/Card";
 import * as React from "react";
 import Avatar from "../components/Avatar";
+import { Metadata } from "next";
 
 
-
-
-
+export const metadata: Metadata = {
+  title: 'About',
+  description: 'About Mar Kiniec Carlisle',
+};
 
 
 

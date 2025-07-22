@@ -1,6 +1,6 @@
 "use client";
 import   Nav  from "../components/Nav";
-
+import React from "react";
 import Activeslider from "../components/Activeslider";
 
 
