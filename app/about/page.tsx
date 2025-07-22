@@ -12,7 +12,7 @@ import Avatar from "../components/Avatar";
 
 
 
-export default function AboutPage() {
+export default function Page() {
   return (
     
         

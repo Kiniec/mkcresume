@@ -4,7 +4,7 @@ import   Nav  from "../components/Nav";
 import Activeslider from "../components/Activeslider";
 
 
-export default function Profile(){
+export default function Page(){
     return(
    <div className= "   ">
 			 

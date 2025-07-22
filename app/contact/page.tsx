@@ -29,7 +29,7 @@ const socials = [
 ];
 
 
-export default function Example() {
+export default function Page() {
 	return (
 		<div className="  ">
 			 
