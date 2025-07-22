@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths: 
-      - "./out"
+      - "/out"
       
       
 
@@ -35,7 +35,7 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./out s3://mkcarlisle.com/ --delete
+          aws s3 sync /out s3://mkcarlisle.com/ --delete
           
           
           
