@@ -2,6 +2,9 @@
 import   Nav  from "../components/Nav";
 import React from "react";
 import Activeslider from "../components/Activeslider";
+import { Metadata } from "next";
+
+
 
 
 export default function Page(){
