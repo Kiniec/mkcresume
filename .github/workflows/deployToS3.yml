@@ -35,16 +35,16 @@ jobs:
 
       - name: Upload files to S3
         run: | # aws s3 sync out/ s3://mkcresume/out/ --delete  
-          aws s3 sync out/_next s3://mkcresume/_next --delete
-          aws s3 sync out/images s3://mkcresume/images --delete
-          aws s3 cp out/about.html s3://mkcresume/about.html --delete
-          aws s3 cp out/about.txt s3://mkcresume/about.txt --delete
+          aws s3 sync out/_next s3://mkcresume/_next 
+          aws s3 sync out/images s3://mkcresume/images 
+          aws s3 cp out/about.html s3://mkcresume/about.html
+         
         
-          aws s3 cp out/contact.html s3://mkcresume/contact.html --delete
-          aws s3 cp out/index.html s3://mkcresume/index.html --delete
-          aws s3 cp out/profile.html s3://mkcresume/profile.html --delete    
-          aws s3 cp out/project.html s3://mkcresume/projects --delete   
-           aws s3 cp out/icon.ico s3://mkcresume/icon.ico --delete 
+          aws s3 cp out/contact.html s3://mkcresume/contact.html 
+          aws s3 cp out/index.html s3://mkcresume/index.html
+          aws s3 cp out/profile.html s3://mkcresume/profile.html   
+          aws s3 cp out/project.html s3://mkcresume/projects 
+           aws s3 cp out/icon.ico s3://mkcresume/icon.ico 
               
 
              
