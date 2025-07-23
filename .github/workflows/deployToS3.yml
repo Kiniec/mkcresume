@@ -38,14 +38,18 @@ jobs:
           aws s3 sync out/_next s3://mkcresume/_next 
           aws s3 sync out/images s3://mkcresume/images 
           aws s3 cp out/about.html s3://mkcresume/about.html
-         
-        
+          aws s3 cp out/about.txt s3://mkcresume/about.txt
           aws s3 cp out/contact.html s3://mkcresume/contact.html 
+          aws s3 cp out/about.txt s3://mkcresume/contact.txt
           aws s3 cp out/index.html s3://mkcresume/index.html
-          aws s3 cp out/profile.html s3://mkcresume/profile.html   
-          aws s3 cp out/projects.html s3://mkcresume/projects.html 
+          aws s3 cp out/index.txt s3://mkcresume/index.txt
+          aws s3 cp out/profile.html s3://mkcresume/profile.html 
+          aws s3 cp out/profile.txt s3://mkcresume/profile.txt  
+          aws s3 cp out/projects.html s3://mkcresume/projects.html
+          aws s3 cp out/projects.txt s3://mkcresume/projects.txt
            aws s3 cp out/icon.ico s3://mkcresume/icon.ico 
-              
+          aws s3 cp out/404.html s3://mkcresume/404.html
+
 
              
           
