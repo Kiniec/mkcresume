@@ -1,6 +1,7 @@
 
 import { Card } from "../components/Card";
 import { Metadata } from "next";
+
 export const metadata: Metadata = {
   title: 'Projects',
   description: 'Projects Mar Kiniec Carlisle',

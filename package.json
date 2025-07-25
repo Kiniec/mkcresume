@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "eslint-plugin-react": "^7.37.5",
+    "google": "link:@next/font/google",
     "lucide": "^0.525.0",
     "lucide-react": "^0.525.0",
     "mkcresume": "link:",

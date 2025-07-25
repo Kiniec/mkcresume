@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Rowdies } from "next/font/google";
+import { Geist, Geist_Mono, Rowdies, Funnel_Display, Boldonse } from "next/font/google";
 //import { Rowdies_Light} from "./public/fonts/Rowdies_Light.ttf";
 import "./globals.css";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Particles from "./components/Particles";
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,9 +17,23 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const rowdL = Rowdies({ weight:"400", subsets: ["latin"]});
- 
+const rowdL = Rowdies({ 
+  weight:["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-rowdL",
+  
+});
 
+const funD = Funnel_Display({
+  variable: "--font-funnel-display",
+  subsets: ["latin"],
+});
+
+const boldD = Boldonse({
+  variable: "--font-boldonse",
+  subsets: ["latin"],
+  weight :["400"],
+});
 
 
 export const metadata: Metadata = {
@@ -42,7 +58,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html data-theme="caramellatte" lang="en" className="" title='MKCarlisle' suppressHydrationWarning>
+    <html data-theme="caramellatte" lang="en" className={funD.className} title='MKCarlisle' suppressHydrationWarning>
       {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
        <head><script src="my-js-file.js" defer></script></head>
        

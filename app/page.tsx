@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import { Rowdies } from "next/font/google";
 //import backgroundImage from "next/image"
 
 

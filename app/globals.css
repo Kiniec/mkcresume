@@ -27,4 +27,11 @@
   
 }
 
+@font-face {
+  font-family: 'RowdiesVariable';
+  src: url('/fonts/Rowdies-VariableFont_wght.woff2') format('woff2-variations'); /* Or 'woff2' for broader browser support */
+  font-weight: 100 900; /* Define the range of weights supported by Rowdies */
+  font-display: swap; /* Recommend using 'swap' for better user experience */
+}
+
 
