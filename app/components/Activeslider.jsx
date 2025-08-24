@@ -126,7 +126,7 @@ import { Card } from './Card.tsx';
                                           </ul>
                                           &nbsp;&nbsp;
                                       <h3 className='font-bold italic'> Parcel Delivery Cover Driver, <abbr title="United Parcel Services"> UPS </abbr> </h3> 
-                                      <h4 className='font-thin italic' >  Dallas, Texas 08/2022- Present </h4>
+                                      <h4 className='font-thin italic' >  Dallas, Texas 08/2022- 01/2025 </h4>
                                       <ul className="list-disc list-inside indent-4 text-wrap"> 
                                         <li> Mentor incoming seasonal employees leading to a 30% increase in productivity of seasonal staff.</li>
                                           <li>Efficiently manage daily routes using Orion and ED delivery systems, achieving a 99% accuracy rate on time-sensitive deliveries.</li>  
