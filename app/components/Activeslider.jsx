@@ -99,8 +99,8 @@ import { Card } from './Card.tsx';
                                         
                                           
                                           <h2  className=" font-bold divider  "> Coursework </h2 > 
-                                          <h1 className='px-5 font-poppins text-lg'> Introduction to Java Programming and Data Structures • Digital Logic • Social Issues in Computing  
-                                            • Computing Foundations l & ll • Computer Science l & ll • IT Project Management • Operating Systems </h1> 
+                                          <h1 className='px-5 font-poppins text-lg'> Introduction to Java Programming and Data Structures | Data Structures and Algorithms | 
+                                            Computer Science l & ll | IT Project Management | Software Engineering | Datase System Designs </h1> 
                                             </div>  
                                         
                       </div>
@@ -116,17 +116,18 @@ import { Card } from './Card.tsx';
                                      
                                      <div className=' lg:text-lg justify-center items-center lg:h-90 px-5  '>
                                       <h3 className='font-bold italic'> IT Project Coordinator - Internship, <abbr title="The Project Management Society"> TPMS </abbr> </h3> 
-                                          <h4 className='font-thin italic' >  Remote 01/2025- Present </h4>
+                                          <h4 className='font-thin italic' > Houston, TX (Remote) 01/2025- Present </h4>
                                           <ul className="list-disc list-inside indent-4 "> 
                                             <li> Coordinate planning, task tracking, and meeting logistics for internal and client projects.</li>
                                               <li>Maintain project documentation including timelines, action items, and status reports.</li>  
                                               <li>Collaborate with leadership to prioritize tasks across multiple strategic initiatives.</li>
-                                              <li>Participate in strategy and alignment meetings, capturing key insights and translating them into action.</li>   
-                                              <li>Support tool usage across platforms by utilizing Microsoft 365, SharePoint, Teams, and Trello. </li> 
+                                              <li>Participate in strategy and alignment meetings, capturing key insights and translating them into action. </li>    
+               
+                                             
                                           </ul>
                                           &nbsp;&nbsp;
                                       <h3 className='font-bold italic'> Parcel Delivery Cover Driver, <abbr title="United Parcel Services"> UPS </abbr> </h3> 
-                                      <h4 className='font-thin italic' >  Dallas, Texas 08/2022- 01/2025 </h4>
+                                      <h4 className='font-thin italic' >  Dallas, Texas 08/2017- 01/2025 </h4>
                                       <ul className="list-disc list-inside indent-4 text-wrap"> 
                                         <li> Mentor incoming seasonal employees leading to a 30% increase in productivity of seasonal staff.</li>
                                           <li>Efficiently manage daily routes using Orion and ED delivery systems, achieving a 99% accuracy rate on time-sensitive deliveries.</li>  
@@ -141,7 +142,7 @@ import { Card } from './Card.tsx';
               </SwiperSlide>
               <SwiperSlide >
                 <Card>
-                  <div className='h-130 mx-auto py-10 font-poppins'>
+                  <div  className='h-130 mx-auto py-10 font-poppins'>
                     
                     <h2 className=" divider lg:text-xl font-medium  xl:text-3xl "> Community Engagement </h2>
                                               <div className='lg:text-xl justify-center items-center lg:h-90  px-5'>
